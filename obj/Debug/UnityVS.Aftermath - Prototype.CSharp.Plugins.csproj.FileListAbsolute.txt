@@ -1,0 +1,11 @@
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\obj\Debug\UnityVS.Aftermath - Prototype.CSharp.Plugins.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\obj\Debug\Assembly-CSharp-firstpass.pdb

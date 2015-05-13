@@ -1,28 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CsPaper : MonoBehaviour {
+public class CsPaper : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        RaycastHit hit;
-        Ray ray;
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        
-        
-
-	}
-    void OnMouseDown()
+    void Start()
     {
-        Vector3 a = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-        a.Set(a.x, a.y, gameObject.transform.position.z);
-        gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, a, 1);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+
+    }
+
+    IEnumerator OnMouseDown()
+    {
+        Vector3 scrSpace = Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, scrSpace.z));
+
+        while (Input.GetMouseButton(0))
+        {
+            Vector3 curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, scrSpace.z);
+
+            Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
+            transform.position = curPosition;
+            yield return null;
+        }
     }
 
 }
+

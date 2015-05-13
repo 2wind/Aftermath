@@ -9,3 +9,5 @@ C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\
 C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\obj\Debug\UnityVS.Aftermath - Prototype.CSharp.Plugins.csprojResolveAssemblyReference.cache
 C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Public\Documents\Unity Projects\Aftermath - Prototype\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
